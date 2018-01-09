@@ -1,0 +1,23 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery load() Demo</title>
+        <script type= "text/javascript" src = "../js/lib/jquery-3.2.1.js"></script>
+        <script type= "text/javascript" src = "../js/lib/jquery-ui.min.js"></script>
+        <script>
+                $(document).ready(function(){
+                    $("button").click(function(){
+                        $("#box").load("F:/Manoj/JsExamples/html/main.html");
+                    });
+                });
+        </script>
+    </head>
+   
+    <body>
+        <div id ="box">
+                <h2>Click button to load new content inside DIV box</h2>
+        </div>
+        <button type="button">Load Content</button>
+    </body>
+</html>
